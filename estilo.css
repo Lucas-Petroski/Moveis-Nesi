@@ -1,113 +1,160 @@
 body,
-html{
-	margin:  0; 
-	padding: 0;
-	font-size:18px;
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
 }
-body{
-	background:	#1C1C1C center top no-repeat;
-	background-size:115%;
-	background-attachment:scroll;
+body {
+  background: #1c1c1c center top no-repeat;
+  background-size: 115%;
+  background-attachment: scroll;
 }
-a, a img{
-	text-decoration:none;
-	border:none;
+a,
+a img {
+  text-decoration: none;
+  border: none;
 }
-img{
-	max-width:100%;
-	height:auto;
+img {
+  width: auto;
+  height: 500px;
 }
-.principal{
-	width: 960px;
-	color: #DCDCDC;
-	margin: 0 auto;
-	font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-align: center;
+
+.principal {
+  width: 960px;
+  color: #dcdcdc;
+  background-color: rgb(72, 72, 72);
+  margin: 0 auto;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
 }
-.cabecalho, 
-.logo, 
+.cabecalho,
+.logo,
 .rodape,
-.menu{
-	width:100%;
-	display:block;
-	clear:both;
+.menu {
+  width: 100%;
+  display: block;
+  clear: both;
 }
 .cabecalho {
-	display: inline-block;
-	position: relative;
-  }
-  .cabecalho p {
-	position: absolute;
-	top: 145px;
-	right: 20px;
-	font-size: 40px;
-	color: #DCDCDC;
-  }
+  display: inline-block;
+  position: relative;
+}
+.cabecalho p {
+  position: absolute;
+  top: 145px;
+  right: 20px;
+  font-size: 40px;
+  color: #dcdcdc;
+}
 
-.menu{
-	background:	#363636;
+.menu {
+  background: #000000;
 }
-.menu ul li, 
-.menu ul{
-	margin:0;
-	padding:0;
-	list-style:none;
+.menu ul li,
+.menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
-.menu ul li{
-	display:inline-block;
+.menu ul li {
+  display: inline-block;
 }
-.menu ul li a{
-	display:block;
-	color:#DCDCDC;
-	padding:13px 20px;
+.menu ul li a {
+  display: block;
+  color: #dcdcdc;
+  padding-top: 10px;
+  margin: auto;
+  padding: 50px;
+  padding-bottom: 30px;
+  font-weight: bolder;
 }
-.corpo{
-	position:relative;
-	overflow:hidden;
-	
+.corpo {
+  position: relative;
+  overflow: hidden;
 }
-.temas{
-	float:left;
+.temas {
+  float: left;
 }
-.temas, .temas:before{
-	width:70%;
+.temas,
+.temas:before {
+  width: 50%;
 }
-.temas:before{
-	position:absolute;
-	top:0;
-	left:0;
-	bottom:0;
-	background:	#363636;
-	z-index:-1;
-	content:'';
+.temas:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #363636;
+  z-index: -1;
+  content: '';
 }
-.barra-lateral{
-	float:right;
+.barra-lateral {
+  float: right;
 }
-.barra-lateral, .barra-lateral:before{
-	width:50%;
+.barra-lateral,
+.barra-lateral:before {
+  width: 50%;
 }
-.barra-lateral:before{
-   content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-	right:0;
-    z-index: -1;
-    background: #363636;
+.barra-lateral:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+  background: #363636;
 }
-.conteudo{
-	padding:50px;
+.conteudo {
+  padding: 50px;
 }
-.rodape{
-	padding:20px;
-	text-align:center;
-	top: 145px;
-	right: 20px;
-	
+.rodape {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding: auto;
+  text-align: center;
+  top: 145px;
+  right: 20px;
+  background-color: black;
 }
-	
-	
-			
-	  
-	  
+
+#imgLogo {
+  width: 180px;
+  height: 200px;
+  padding-bottom: 30px;
+}
+
+a:link {
+  color: rgb(255, 255, 255);
+}
+
+a:visited {
+  color: rgb(7, 98, 2);
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+}
+
+a:active {
+  color: rgba(50, 252, 94, 0.842);
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+#barra-direita {
+  background-color: aliceblue;
+  color: black;
+  margin: auto;
+}
+
+#logotipo {
+  background-color: rgb(17, 17, 17);
+  padding-top: 10px;
+}
